@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tareq594.maidme.MobilenumberActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/enter_your_mobile_number"
+                    android:textAlignment="textStart"
+                    android:textColor="#4A4A4A"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="jelly_bean" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:lines="2"
+                    android:text="@string/enter_your_mobile_number_to_create_an_account_or_sign_in"
+                    android:textAlignment="textStart"
+                    android:textColor="#4A4A4A"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <EditText
+                    android:id="@+id/VerificationCode"
+                    android:layout_width="274dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:autoSizeMaxTextSize="19dp"
+                    android:autoSizeMinTextSize="14dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:ems="10"
+                    android:hint="Enter Verification @string/enter_verification_code"
+                    android:inputType="number"
+                    android:textColor="#4A4A4A"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:targetApi="o" />
+
+                <EditText
+                    android:id="@+id/mobileNumberTextField3"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:autoSizeMaxTextSize="19dp"
+                    android:autoSizeMinTextSize="14dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:ems="10"
+                    android:hint="@string/enter_your_mobile_number"
+                    android:inputType="number"
+                    android:textColor="#4A4A4A"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/PostalCodeTextField"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:targetApi="o" />
+
+                <EditText
+                    android:id="@+id/PostalCodeTextField"
+                    android:layout_width="86dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:autoSizeMaxTextSize="19dp"
+                    android:autoSizeMinTextSize="14dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="@string/_962"
+                    android:textColor="#4A4A4A"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:targetApi="o"
+                    tools:text="+962" />
+
+                <Button
+                    android:id="@+id/sendVerificationButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="65dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="70dp"
+                    android:background="#236596"
+                    android:fontFamily="sans-serif"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/send_verification_code"
+                    android:textColor="@android:color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

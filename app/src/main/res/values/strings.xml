@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MaidME</string>
+
+    <string name="title_activity_mobilenumber">MobilenumberActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="_962">+962</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_mobile_number_to_create_an_account_or_sign_in">Enter your mobile number to create an account or sign in</string>
+    <string name="enter_your_verification_code">Enter your verification code</string>
+    <string name="enter_the_verification_code_sent_to_you_at_number">Enter the verification code sent to you at number</string>
+    <string name="verification_code">verification code</string>
+    <string name="send_verification_code">Send Verification code</string>
+    <string name="enter_verification_code">Enter Verification code</string>
+    <string name="enter_verification_code2">Enter verification code</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="large_text">
+
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="Gender_Array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Relations_Array">
+        <item>Married</item>
+        <item>Single</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_homee">HomeeActivity</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_testdrawwer">testdrawwer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_conformation">Conformation</string>
+
+
+</resources>

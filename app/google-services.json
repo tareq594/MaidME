@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "424776543969",
+    "firebase_url": "https://maidme-bfce4.firebaseio.com",
+    "project_id": "maidme-bfce4",
+    "storage_bucket": "maidme-bfce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424776543969:android:aec625a76d2bcfe0",
+        "android_client_info": {
+          "package_name": "com.example.tareq594.maidme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424776543969-k019m9loucjcirg0r67a3f4t9kcqap1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tareq594.maidme",
+            "certificate_hash": "89ffe99f51a3808f928aa85e10b9e8cffccdef0e"
+          }
+        },
+        {
+          "client_id": "424776543969-6todeeehcd9mp8le2i873taahrl42nlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tareq594.maidme",
+            "certificate_hash": "67e03c5335e64b4456495ef1a2ca2907973c3bda"
+          }
+        },
+        {
+          "client_id": "424776543969-21c56ftseb2oi3vdg1k0en1hmvehptcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyComvZo3o31r-sfRWq8wxGrU7W7fKKJK-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424776543969-g45v8n01l8egdech40brp1fphdqgcoht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Sanabra.MaidMe"
+              }
+            },
+            {
+              "client_id": "424776543969-21c56ftseb2oi3vdg1k0en1hmvehptcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
